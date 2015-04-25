@@ -1,0 +1,379 @@
+/*
+* Virtual Realty v.1.0 (http://)
+* Created 11/3/2014, LLG
+*/
+
+/* ----- General ----- */
+body {
+	text-align: center;
+	color: #fff;
+	background-color: #dc143c;
+}
+
+video {
+	width:100%;
+}
+
+.clear {
+	clear: both;
+}
+
+.arrow {
+	margin: -0.25em 0;
+	padding: 0;
+	font-size: 2em;
+	font-weight: 100;
+	color: #fff;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+h1 {
+	font-size: 5em;
+	font-weight: 400;
+	letter-spacing: 0.01em;
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: 200;
+	letter-spacing: 0.01em;
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: 200;
+	letter-spacing: 0.01em;
+}
+
+h4 {
+	font-size: 1.5em;
+	font-weight: 100;
+	letter-spacing: 0.1em;
+}
+
+p {
+	font-size: 1.5em;
+	font-weight: 200;
+	letter-spacing: 0.025em;
+}
+
+
+/* ----- Sections ---- */
+
+/* ---- HEADER ---- */
+.header {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	max-height: 100%;
+	min-height: 600px;
+	display: table;
+}
+
+.video-player {
+	position: fixed;
+	top: -1%;
+	width: 100%;
+	height: 100%;
+}
+
+/* ---- NAVIGATION ---- */
+
+.navbar {
+	margin: 0;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav li a {
+	padding-left: 0;
+	padding-right: 0;
+	margin-right: 2em;
+	font-size: 1em;
+	letter-spacing: 0.1em;
+	color: #fff;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+	border-bottom: 2px solid transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #fff;
+	border-bottom-color: #fff;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+	color: #fff;
+	border-bottom-color: #fff;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+	color: #fff;
+	border-bottom-color: transparent;
+	background-color: transparent;
+}
+
+/* ---- HERO ---- */
+.hero-statement {
+	position: relative;
+	top: 12em;
+}
+
+.hero-statement h1 {
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+	margin: 0;
+	padding: 0 0 0.5em 0;
+}
+
+.hero-statement p {
+	margin: 1.5em 0 0 0;
+	padding: 0;
+	font-weight: 100;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+.button, .button2 {
+	max-width: 250px;
+	display: block;
+	margin: 0 auto 1em;
+	padding: 0;
+	font-size: 1.5em;
+	font-weight: 200;
+	letter-spacing: 0.02em;
+	line-height: 2em;
+	color: #fff;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+	border: 1px solid #fff;
+	border-radius: 1em;
+	transition: all .2s;
+	-webkit-transition: all .2s;
+	transition-timing-function: ease;
+	-webkit-transition-timing-function: ease;
+	box-shadow: 0 1px 3px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.5);
+
+}
+
+.button:hover {
+	color: #fff;
+	background-color: #dc143c;
+	border-color: #dc143c;
+	text-shadow: none;
+	text-decoration: none;
+}
+
+.button2:hover {
+	color: #fff;
+	background-color: #ffd700;
+	border-color: #ffd700;
+	text-decoration: none;
+}
+
+/* ---- CONTENT ---- */
+.content {
+	position: relative;
+}
+
+/* ---- PLACEHOLDER ---- */
+.placeholder {
+	min-height: 100px;
+	margin: 0;
+	padding: 3em;
+	color: #dc143c;
+	background-color: #f8f8ff;
+}
+
+/* ---- DESCRIPTION ---- */
+.description {
+	background-color: #000;
+}
+
+.carousel-caption h1 {
+	font-size: 4em;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+.carousel-caption p {
+	font-size: 1em;
+	letter-spacing: 0.05em;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+/* Carousel base class */
+.carousel {
+	max-height: 800px;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+	z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+	height: 800px;
+	background-color: #777;
+}
+
+.carousel-inner > .item > img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	height: 800px;
+}
+
+.carousel-inner > .item > img {
+	opacity: 0.35;
+}
+
+
+/* ---- PRICING ---- */
+.pricing {
+	min-height: 150px;
+	margin: 0;
+	padding: 4em;
+	background-color: #dc143c;
+}
+
+.pricing h2 {
+	padding-bottom: 0.5em;
+}
+
+.pricing p {
+	margin: 0;
+	padding: 0;
+	font-size: 1.2em;
+	font-weight: 200;
+	letter-spacing: 0.075em;
+}
+
+.pricing-inner {
+	min-height: 125px;
+	padding-bottom: 3em;
+}
+
+.pricing-col {
+	border-right: 1px solid #fff;
+}
+
+.sqft {
+	margin-top: -0.4em;
+	margin-bottom: -0.3em;
+	font-size: 4em;
+	font-weight: 300;
+}
+
+.price {
+	font-size: 4em;
+	font-weight: 100;
+	margin-top: 0.0865em;
+	margin-left: -0.5em;
+	text-align: left;
+}
+
+.sign {
+	font-size: 0.35em;
+	font-weight: 200;
+	margin-left: -0.5em;
+}
+
+/* ---- INDUSTRY ---- */
+.industry {
+	position: relative;
+	min-height: 300px;
+	margin: 0;
+	padding: 2.5em;
+	color: #dc143c;
+	background: #f8f8ff;
+}
+
+.industry img {
+	width: 60%;
+}
+
+.industry h2 {
+	font-weight: 400;
+}
+
+.industry h3 {
+	font-weight: 400;
+}
+
+.industry p {
+	color: #dc143c;
+}
+
+/* ---- ABOUT ---- */
+.about {
+	position: relative;
+	min-height: 50px;
+	margin: 0;
+	padding: 6em 10em 3em;
+	background-color: #dc143c;
+}
+
+.about h4 {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+}
+
+/* ---- FOOTER ---- */
+.footer {
+	position: relative;
+	min-height: 200px;
+	margin: 0;
+	padding: 3em;
+	background-color: #dc143c;
+}
+
+.footer p {
+	font-size: 1em;
+	font-weight: 100;
+	letter-spacing: 0.1em;
+}
+
+.social {
+	min-height: 100px;
+	text-align: left;
+}
+
+.social a:hover {
+	color: #ffd700;
+	text-decoration: none;
+}
+
+.social-icon {
+	padding: 0.5em;
+	color: #fff;
+}
+
+.contact {
+	min-height: 100px;
+	text-align: right;
+}
+
+.contact-icon {
+	padding: 0 0.5em;
+	color: #fff;
+}
+
+.contact a:hover {
+	color: #ffd700;
+	text-decoration: none;
+}
+
