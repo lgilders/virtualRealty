@@ -10,13 +10,13 @@ class Main {
                        propertyType: 'Single Family',
                        buildingType: 'House',
                        numStories: '2',
-                       parkingType: 'Attached, 2 car garage',
+                       parkingType: 'Attached, 2-car garage',
                        numBeds: '5',
                        numBaths: '4',
                        squareFootage: '3,919',
                        askingPrice: '$650,000',
-                       description: "Don't miss this immaculate home in the exclusive Waverly section of Hamlin Plantation. Enjoy the Hamlin amenities which include junior Olympic swimming pool, tennis and basketball courts, beach volleyball, workout facility, running and biking trails, clubhouse, and optional boat storage.",
-                       amenities: 'Master on main, dual walk-in closets, gas fireplace, front porch, upper front porch, back screened-in porch, hardwood floors, fenced-in backyard',
+                       description: "Don't miss this immaculate home in the exclusive Waverly section of Hamlin Plantation. Enjoy amenities such as the junior Olympic swimming pool, tennis and basketball courts, running and biking trails, and more.",
+                       amenities: 'Master on main, dual walk-in closets, gas fireplace, multiple porches, hardwood floors, fenced-in backyard',
                        realtorLink: 'http://www.kw.com/homes-for-sale/29466/SC/Mount-Pleasant/4232-Coolidge-Street/3yd-CTARSC-15005444.html',
                        modelId: 'K5dUcAwHp5x']
 
