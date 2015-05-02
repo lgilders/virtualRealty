@@ -5,20 +5,20 @@
 class Main {
 
     public static void main(String[] args) {
-        def binding = [streetAddress: '4232 Coolidge Street',
-                       fullAddress: '4232 Coolidge Street, Mt. Pleasant, SC 29466',
-                       propertyType: 'Single Family',
+        def binding = [streetAddress: '116 Nassau Street',
+                       fullAddress: '116 Nassau Street, Charleston, SC 29403',
+                       propertyType: 'Multiple Occupancy',
                        buildingType: 'House',
                        numStories: '2',
-                       parkingType: 'Attached, 2-car garage',
-                       numBeds: '5',
-                       numBaths: '4',
-                       squareFootage: '3,919',
-                       askingPrice: '$650,000',
-                       description: "Don't miss this immaculate home in the exclusive Waverly section of Hamlin Plantation. Enjoy amenities such as the junior Olympic swimming pool, tennis and basketball courts, running and biking trails, and more.",
-                       amenities: 'Master on main, dual walk-in closets, gas fireplace, multiple porches, fenced-in backyard',
-                       realtorLink: 'http://www.kw.com/homes-for-sale/29466/SC/Mount-Pleasant/4232-Coolidge-Street/3yd-CTARSC-15005444.html',
-                       modelId: 'K5dUcAwHp5x']
+                       parkingType: 'On-street',
+                       numBeds: '4',
+                       numBaths: '4 half',
+                       squareFootage: '1,952',
+                       askingPrice: '$X,000 per month',
+                       description: "Built in 1885, this 1,952 square foot Charleston single home has 4 bedrooms and 4 half bathrooms. It is located in downtown Charleston, just one block off Meeting Street and within easy walking distance of Martin Park.",
+                       amenities: 'Genuine Charleston single layout, Fireplace, full kitchens upstairs and down, near Martin and Marion Square Parks',
+                       realtorLink: 'http://www.zillow.com/homedetails/116-Nassau-St-Charleston-SC-29403/10905892_zpid/',
+                       modelId: '4mP6GBuwChY']
 
         def engine = new groovy.text.SimpleTemplateEngine()
         def text = '''\
