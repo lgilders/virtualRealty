@@ -5,20 +5,20 @@
 class Main {
 
     public static void main(String[] args) {
-        def binding = [streetAddress: 'Saussy Burbank',
-                       fullAddress: 'Bayberry NWR by Saussy Burbank in Nexton Community',
+        def binding = [streetAddress: '4232 Coolidge Street',
+                       fullAddress: '4232 Coolidge Street, Mt. Pleasant, SC 29466',
                        propertyType: 'Single Family',
                        buildingType: 'House',
                        numStories: '2',
-                       parkingType: 'Detached, 24 spaces',
-                       numBeds: '3-4',
-                       numBaths: '2.5',
-                       squareFootage: '2,185',
-                       askingPrice: '$292,900',
-                       description: 'A private company that only builds in the Carolinas, Saussy Burbank has created a series of homes that feel deeply rooted and yet utterly of today. Day-to-day living is a seamless experience, with room flowing into room.',
-                       amenities: 'Master on main, Wrap-around porch, Four master bath layout options',
-                       realtorLink: 'http://www.saussyburbank.com/listings/bayberry-nw/',
-                       modelId: 'h3UG7sSjmDr']
+                       parkingType: 'Attached, 2 car garage',
+                       numBeds: '5',
+                       numBaths: '4',
+                       squareFootage: '3,919',
+                       askingPrice: '$650,000',
+                       description: "Don't miss this immaculate home in the exclusive Waverly section of Hamlin Plantation. Enjoy the Hamlin amenities which include junior Olympic swimming pool, tennis and basketball courts, beach volleyball, workout facility, running and biking trails, clubhouse, and optional boat storage.",
+                       amenities: 'Master on main, dual walk-in closets, gas fireplace, front porch, upper front porch, back screened-in porch, hardwood floors, fenced-in backyard',
+                       realtorLink: 'http://www.kw.com/homes-for-sale/29466/SC/Mount-Pleasant/4232-Coolidge-Street/3yd-CTARSC-15005444.html',
+                       modelId: 'K5dUcAwHp5x']
 
         def engine = new groovy.text.SimpleTemplateEngine()
         def text = '''\
