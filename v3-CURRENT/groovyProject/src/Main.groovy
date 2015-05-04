@@ -15,8 +15,8 @@ class Main {
                        numBaths: '4 half',
                        squareFootage: '1,952',
                        askingPrice: '$X,000 per month',
-                       description: "Built in 1885, this 1,952 square foot Charleston single home has 4 bedrooms and 4 half bathrooms. It is located in downtown Charleston, just one block off Meeting Street and within easy walking distance of Martin Park.",
-                       amenities: 'Genuine Charleston single layout, Fireplace, full kitchens upstairs and down, near Martin and Marion Square Parks',
+                       description: "Built in 1885, this 1,952-square-foot Charleston single home is located in downtown Charleston, just one block from Meeting Street and within easy walking distance of Martin Park.",
+                       amenities: 'Fireplace, full kitchens upstairs and down, near Martin and Marion Square Parks',
                        realtorLink: 'http://www.zillow.com/homedetails/116-Nassau-St-Charleston-SC-29403/10905892_zpid/',
                        modelId: '4mP6GBuwChY']
 
