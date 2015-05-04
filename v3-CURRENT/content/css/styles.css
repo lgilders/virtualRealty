@@ -421,6 +421,21 @@ p {
 	text-decoration: underline;
 }
 
+.demo-2, .example {
+	height: auto;
+	position: absolute;
+	top: 950px;
+	left: 0;
+	right: 0;
+	width: 100%;
+	background-color: #f8f8ff;
+}
+
+.demo-2 iframe, .example iframe {
+	max-width: 100%;
+	width: 100%;
+}
+
 /* -- PORTFOLIO -- */
 .portfolio {
 	padding: 8em 0 3em 0;
@@ -1150,6 +1165,14 @@ p {
 
 	.portfolio h5 {
 		padding-left: 1em;
+	}
+
+	.demo {
+		top: 51px;
+	}
+
+	.demo-2 {
+		top: 965px;
 	}
 }
 
