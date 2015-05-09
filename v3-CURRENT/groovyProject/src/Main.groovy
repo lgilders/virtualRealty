@@ -5,20 +5,20 @@
 class Main {
 
     public static void main(String[] args) {
-        def binding = [streetAddress: '116 Nassau Street',
-                       fullAddress: '116 Nassau Street, Charleston, SC 29403',
-                       propertyType: 'Multiple Occupancy',
+        def binding = [streetAddress: '43 Woodford Street',
+                       fullAddress: '43 Woodford Street, Daniel Island, SC 29492',
+                       propertyType: 'Single Family',
                        buildingType: 'House',
                        numStories: '2',
-                       parkingType: 'On-street',
-                       numBeds: '4',
-                       numBaths: '4 half',
-                       squareFootage: '1,952',
-                       askingPrice: '$X,000 per month',
-                       description: "Built in 1885, this 1,952-square-foot Charleston single home is located in downtown Charleston, just one block from Meeting Street and within easy walking distance of Martin Park.",
-                       amenities: 'Fireplace, full kitchens upstairs and down, near Martin and Marion Square Parks',
-                       realtorLink: 'http://www.zillow.com/homedetails/116-Nassau-St-Charleston-SC-29403/10905892_zpid/',
-                       modelId: '4mP6GBuwChY']
+                       parkingType: '2-Car Garage, attached',
+                       numBeds: '5',
+                       numBaths: '5',
+                       squareFootage: '5,041',
+                       askingPrice: '$X,Y00,000',
+                       description: "Dolorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non risus condimentum, bibendum mauris vitae, placerat risus. Aliquam erat volutpat.",
+                       amenities: 'Fireplace',
+                       realtorLink: 'http://www.realtor.com/realestateandhomes-detail/43-Woodford-St_Daniel-Island_SC_29492_M64876-51904',
+                       modelId: 'Ds2vgtoxNcV']
 
         def engine = new groovy.text.SimpleTemplateEngine()
         def text = '''\
