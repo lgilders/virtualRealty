@@ -12,12 +12,12 @@ class Main {
                        numStories: '2',
                        parkingType: '2-Car Garage, attached',
                        numBeds: '5',
-                       numBaths: '5',
+                       numBaths: '4.5',
                        squareFootage: '5,041',
-                       askingPrice: '$X,Y00,000',
-                       description: "Dolorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non risus condimentum, bibendum mauris vitae, placerat risus. Aliquam erat volutpat.",
-                       amenities: 'Fireplace',
-                       realtorLink: 'http://www.realtor.com/realestateandhomes-detail/43-Woodford-St_Daniel-Island_SC_29492_M64876-51904',
+                       askingPrice: '$1,199,000',
+                       description: '''What better place to savor the Lowcountry splendor of Daniel Island Park than your own traditional, custom home on the edge of a pristine, nationally ranked 18-hole golf course. With a large, full front porch and screened-in porch to take in the great outdoors as well as stunning interior spaces, this island property dazzles with comfortable elegance and Southern charm.''',
+                       amenities: 'French doors, Daniel Island Club membership, Master on main, Fireplace',
+                       realtorLink: 'http://www.danielisland.com/property/43-woodford-street/pbase/a0AC000000XlK5nMAF/',
                        modelId: 'Ds2vgtoxNcV']
 
         def engine = new groovy.text.SimpleTemplateEngine()
