@@ -15,7 +15,7 @@ class Main {
                        numBaths: '4.5',
                        squareFootage: '5,041',
                        askingPrice: '$1,199,000',
-                       description: '''What better place to savor the Lowcountry splendor of Daniel Island Park than your own traditional, custom home on the edge of a pristine, nationally ranked 18-hole golf course. With a large, full front porch and screened-in porch to take in the great outdoors as well as stunning interior spaces, this island property dazzles with comfortable elegance and Southern charm.''',
+                       description: '''With a large, full front porch and screened-in porch to take in the great outdoors as well as stunning interior spaces, this island property dazzles with comfortable elegance and Southern charm.''',
                        amenities: 'French doors, Daniel Island Club membership, Master on main, Fireplace',
                        realtorLink: 'http://www.danielisland.com/property/43-woodford-street/pbase/a0AC000000XlK5nMAF/',
                        modelId: 'Ds2vgtoxNcV']
