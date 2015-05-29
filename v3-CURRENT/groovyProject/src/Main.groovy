@@ -5,20 +5,20 @@
 class Main {
 
     public static void main(String[] args) {
-        def binding = [streetAddress: '43 Woodford Street',
-                       fullAddress: '43 Woodford Street, Daniel Island, SC 29492',
+        def binding = [streetAddress: '24 Norman Street',
+                       fullAddress: '24 Norman Street, Charleston, SC 29403',
                        propertyType: 'Single Family',
-                       buildingType: 'House',
-                       numStories: '2',
-                       parkingType: '2-Car Garage, attached',
-                       numBeds: '5',
-                       numBaths: '4.5',
-                       squareFootage: '5,041',
-                       askingPrice: '$1,199,000',
-                       description: '''With a large, full front porch and screened-in porch to take in the great outdoors as well as stunning interior spaces, this island property dazzles with comfortable elegance and Southern charm.''',
-                       amenities: 'French doors, Daniel Island Club membership, Master on main, Fireplace',
-                       realtorLink: 'http://www.danielisland.com/property/43-woodford-street/pbase/a0AC000000XlK5nMAF/',
-                       modelId: 'Ds2vgtoxNcV']
+                       buildingType: 'Bungalow',
+                       numStories: '1',
+                       parkingType: 'On-street',
+                       numBeds: '2',
+                       numBaths: '1',
+                       squareFootage: '800',
+                       askingPrice: '$XXX per month',
+                       description: '''A beautiful, newly remodeled unit convenient to both Downtown Charleston and the Medical University of South Carolina's campus. Only one block from Harmon Field, an 13-acre recreation area with basketball courts, sports fields, and a playground.''',
+                       amenities: 'Newly remodeled, hardwood floors, full kitchen, washer and dryer, paneling throughout',
+                       realtorLink: 'http://www.zillow.com/homedetails/24-Norman-St-Charleston-SC-29403/10907881_zpid/',
+                       modelId: 'E9GfdtZZ1W3']
 
         def engine = new groovy.text.SimpleTemplateEngine()
         def text = '''\
