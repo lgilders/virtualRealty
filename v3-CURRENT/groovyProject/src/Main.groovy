@@ -5,20 +5,20 @@
 class Main {
 
     public static void main(String[] args) {
-        def binding = [streetAddress: '24 Norman Street',
-                       fullAddress: '24 Norman Street, Charleston, SC 29403',
+        def binding = [streetAddress: '674 York Street',
+                       fullAddress: '674 York Street, Mount Pleasant, SC 29464',
                        propertyType: 'Single Family',
-                       buildingType: 'Bungalow',
+                       buildingType: 'House',
                        numStories: '1',
-                       parkingType: 'On-street',
-                       numBeds: '2',
-                       numBaths: '1',
-                       squareFootage: '800',
-                       askingPrice: '$XXX per month',
-                       description: '''A beautiful, newly remodeled unit convenient to both Downtown Charleston and the Medical University of South Carolina's campus. Only one block from Harmon Field, an 13-acre recreation area with basketball courts, sports fields, and a playground.''',
-                       amenities: 'Newly remodeled, hardwood floors, full kitchen, washer and dryer, paneling throughout',
-                       realtorLink: 'http://www.zillow.com/homedetails/24-Norman-St-Charleston-SC-29403/10907881_zpid/',
-                       modelId: 'E9GfdtZZ1W3']
+                       parkingType: 'Attached Carport',
+                       numBeds: '3',
+                       numBaths: '2',
+                       squareFootage: '1125',
+                       askingPrice: '$XXX,XXX',
+                       description: '''A beautiful, newly remodeled home situated just off Mathis Ferry Road, minutes from downtown Charleston. Within easy walking distance of Queensborough Shopping Center and the Mount Pleasant Public Library.''',
+                       amenities: 'Fenced backyard, covered front porch, hardwood floors, mudroom, built over crawlspace',
+                       realtorLink: 'http://www.realtor.com/realestateandhomes-detail/674-York-St_Mount-Pleasant_SC_29464_M58245-28640',
+                       modelId: 'oqM3yC2Kr7G']
 
         def engine = new groovy.text.SimpleTemplateEngine()
         def text = '''\
@@ -92,7 +92,7 @@ class Main {
 \t\t<!-- Demo Embed -->
       \t<div class="demo">
       \t\t<div class='embed-container'>
-\t\t\t\t<iframe width="853" height="480" src="https://my.matterport.com/show/?m=$modelId" frameborder="0" allowfullscreen></iframe>\t\t\t
+\t\t\t\t<iframe width="853" height="480" src="https://my.matterport.com/show/?m=$modelId&play=true" frameborder="0" allowfullscreen></iframe>\t\t\t
 \t\t\t</div>
       \t</div>
 
