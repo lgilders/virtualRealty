@@ -5,20 +5,20 @@
 class Main {
 
     public static void main(String[] args) {
-        def binding = [streetAddress: '674 York Street',
-                       fullAddress: '674 York Street, Mount Pleasant, SC 29464',
+        def binding = [streetAddress: '5 Duck Lane',
+                       fullAddress: '5 Duck Lane, Isle of Palms, SC 29451',
                        propertyType: 'Single Family',
                        buildingType: 'House',
                        numStories: '1',
-                       parkingType: 'Attached Carport',
-                       numBeds: '3',
-                       numBaths: '2',
-                       squareFootage: '1125',
-                       askingPrice: '$XXX,XXX',
-                       description: '''A beautiful, newly remodeled home situated just off Mathis Ferry Road, minutes from downtown Charleston. Within easy walking distance of Queensborough Shopping Center and the Mount Pleasant Public Library.''',
-                       amenities: 'Fenced backyard, covered front porch, hardwood floors, mudroom, built over crawlspace',
-                       realtorLink: 'http://www.realtor.com/realestateandhomes-detail/674-York-St_Mount-Pleasant_SC_29464_M58245-28640',
-                       modelId: 'oqM3yC2Kr7G']
+                       parkingType: '2 Car Garage',
+                       numBeds: '4',
+                       numBaths: '3',
+                       squareFootage: '2,533',
+                       askingPrice: '$878,000',
+                       description: '''A beautiful island home, located in a quiet area on the Isle of Palms and sitting perfectly on what may be one of the best interior lots on the Island.''',
+                       amenities: 'In-ground pool, hot tub, boat ramp, boat storage, hardwood floors, master on main, walk-in closets, built over crawlspace',
+                       realtorLink: 'http://www.agentowned.com/listings/view/5-duck-lane-isle-of-palms-sc-1425622.html',
+                       modelId: 'GgNYjL1t35U']
 
         def engine = new groovy.text.SimpleTemplateEngine()
         def text = '''\
