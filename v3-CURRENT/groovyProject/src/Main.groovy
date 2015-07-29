@@ -5,20 +5,20 @@
 class Main {
 
     public static void main(String[] args) {
-        def binding = [streetAddress: '5 Duck Lane',
-                       fullAddress: '5 Duck Lane, Isle of Palms, SC 29451',
+        def binding = [streetAddress: '332 Rhoden Island Drive',
+                       fullAddress: '332 Rhoden Island Drive, Daniel Island, SC 29492',
                        propertyType: 'Single Family',
                        buildingType: 'House',
-                       numStories: '1',
-                       parkingType: '2 Car Garage',
+                       numStories: '2',
+                       parkingType: '3-car driveway',
                        numBeds: '4',
-                       numBaths: '3',
-                       squareFootage: '2,533',
-                       askingPrice: '$878,000',
-                       description: '''A beautiful island home, located in a quiet area on the Isle of Palms and sitting perfectly on what may be one of the best interior lots on the Island.''',
-                       amenities: 'In-ground pool, hot tub, boat ramp, boat storage, hardwood floors, master on main, walk-in closets, built over crawlspace',
-                       realtorLink: 'http://www.agentowned.com/listings/view/5-duck-lane-isle-of-palms-sc-1425622.html',
-                       modelId: 'GgNYjL1t35U']
+                       numBaths: '4.5',
+                       squareFootage: '3,799',
+                       askingPrice: '$1,599,000',
+                       description: 'There are few backdrops more stunning and captivating than the panoramic marsh views on display at this exquisite custom home. Old Southern charm meets modern day luxury in this elegant home with endless views of the Ralston Creek Course and wetlands beyond.',
+                       amenities: 'Sweeping double staircase, mahogany study, custom-designed kitchen, French doors, sunroom',
+                       realtorLink: 'http://www.danielisland.com/property/332-rhoden-island-drive/pbase/a0A80000008tboLEAQ/',
+                       modelId: 'q41Whonncdg']
 
         def engine = new groovy.text.SimpleTemplateEngine()
         def text = '''\
@@ -92,12 +92,8 @@ class Main {
 \t\t<!-- Demo Embed -->
       \t<div class="demo">
       \t\t<div class='embed-container'>
-\t\t\t\t<iframe width="853" height="480" src="https://my.matterport.com/show/?m=$modelId&play=true" frameborder="0" allowfullscreen></iframe>\t\t\t
+\t\t\t\t<iframe width="853" height="480" src="https://my.matterport.com/show/?m=$modelId&play=1&help=1" frameborder="0" allowfullscreen></iframe>\t\t\t
 \t\t\t</div>
-      \t</div>
-
-      \t<div class="instructions">
-      \t\t<p>Navigate the 3D Showcase using your mouse or the direction keys on your keyboard.</p>
       \t</div>
 
       \t<div class="demo-listing" style="padding: 0 2em 4em 2em;">
