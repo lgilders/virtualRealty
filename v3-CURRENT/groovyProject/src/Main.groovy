@@ -5,20 +5,20 @@
 class Main {
 
     public static void main(String[] args) {
-        def binding = [streetAddress: '116 Nassau Street',
-                       fullAddress: '116 Nassau Street, Charleston, SC 29403',
-                       propertyType: 'Multiple Occupancy',
+        def binding = [streetAddress: '332 Rhoden Island Drive',
+                       fullAddress: '332 Rhoden Island Drive, Daniel Island, SC 29492',
+                       propertyType: 'Single Family',
                        buildingType: 'House',
                        numStories: '2',
-                       parkingType: 'On-street',
+                       parkingType: '3-car driveway',
                        numBeds: '4',
-                       numBaths: '4 half',
-                       squareFootage: '1,952',
-                       askingPrice: '$X,000 per month',
-                       description: "Built in 1885, this 1,952-square-foot Charleston single home is located in downtown Charleston, just one block from Meeting Street and within easy walking distance of Martin Park.",
-                       amenities: 'Fireplace, full kitchens upstairs and down, near Martin and Marion Square Parks',
-                       realtorLink: 'http://www.zillow.com/homedetails/116-Nassau-St-Charleston-SC-29403/10905892_zpid/',
-                       modelId: '4mP6GBuwChY']
+                       numBaths: '4.5',
+                       squareFootage: '3,799',
+                       askingPrice: '$1,599,000',
+                       description: 'There are few backdrops more stunning and captivating than the panoramic marsh views on display at this exquisite custom home. Old Southern charm meets modern day luxury in this elegant home with endless views of the Ralston Creek Course and wetlands beyond.',
+                       amenities: 'Sweeping double staircase, mahogany study, custom-designed kitchen, French doors, sunroom',
+                       realtorLink: 'http://www.danielisland.com/property/332-rhoden-island-drive/pbase/a0A80000008tboLEAQ/',
+                       modelId: 'q41Whonncdg']
 
         def engine = new groovy.text.SimpleTemplateEngine()
         def text = '''\
@@ -92,12 +92,8 @@ class Main {
 \t\t<!-- Demo Embed -->
       \t<div class="demo">
       \t\t<div class='embed-container'>
-\t\t\t\t<iframe width="853" height="480" src="https://my.matterport.com/show/?m=$modelId" frameborder="0" allowfullscreen></iframe>\t\t\t
+\t\t\t\t<iframe width="853" height="480" src="https://my.matterport.com/show/?m=$modelId&play=1&help=1" frameborder="0" allowfullscreen></iframe>\t\t\t
 \t\t\t</div>
-      \t</div>
-
-      \t<div class="instructions">
-      \t\t<p>Navigate the 3D Showcase using your mouse or the direction keys on your keyboard.</p>
       \t</div>
 
       \t<div class="demo-listing" style="padding: 0 2em 4em 2em;">
