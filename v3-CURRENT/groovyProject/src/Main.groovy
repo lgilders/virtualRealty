@@ -5,20 +5,20 @@
 class Main {
 
     public static void main(String[] args) {
-        def binding = [streetAddress: '332 Rhoden Island Drive',
-                       fullAddress: '332 Rhoden Island Drive, Daniel Island, SC 29492',
+        def binding = [streetAddress: '310 Lesesne Street',
+                       fullAddress: '310 Lesesne Street, Daniel Island, SC 29492',
                        propertyType: 'Single Family',
                        buildingType: 'House',
                        numStories: '2',
-                       parkingType: '3-car driveway',
-                       numBeds: '4',
-                       numBaths: '4.5',
-                       squareFootage: '3,799',
-                       askingPrice: '$1,599,000',
-                       description: 'There are few backdrops more stunning and captivating than the panoramic marsh views on display at this exquisite custom home. Old Southern charm meets modern day luxury in this elegant home with endless views of the Ralston Creek Course and wetlands beyond.',
-                       amenities: 'Sweeping double staircase, mahogany study, custom-designed kitchen, French doors, sunroom',
-                       realtorLink: 'http://www.danielisland.com/property/332-rhoden-island-drive/pbase/a0A80000008tboLEAQ/',
-                       modelId: 'q41Whonncdg']
+                       parkingType: '2-car garage',
+                       numBeds: '6',
+                       numBaths: '5.5',
+                       squareFootage: '4,567',
+                       askingPrice: '$1,525,000',
+                       description: '''Located in the island's golf-oriented neighborhood, Daniel Island Park, this newly constructed home is nestled on a corner homesite with unobstructed water and golf views of the Rees Jones-designed Ralston Creek Course.''',
+                       amenities: '''Kitchen island, smooth ceilings, up- and downstairs patios, lawn irrigation, neighborhood pool, walk/job trails, play park''',
+                       realtorLink: 'http://www.danielisland.com/property/310-lesesne-street/pbase/a0AC000000Ynub5MAB/',
+                       modelId: '3WfNBxam84k']
 
         def engine = new groovy.text.SimpleTemplateEngine()
         def text = '''\
@@ -82,6 +82,7 @@ class Main {
 \t            <ul class="nav navbar-nav navbar-right">
 \t              <li class="nav-demo"><a href="../../demo.html">DEMO</a></li>
 \t              <li class="nav-portfolio"><a href="../../portfolio.html">PORTFOLIO</a></li>
+\t              <li class="nav-photography"><a href="http://photography.virtual-realty-llc.com">PHOTOGRAPHY</a></li>
 \t              <li class="nav-pricing"><a href="../../pricing.html">PRICING</a></li>
 \t              <li class="nav-order"><a href="../../order.html"><span id="order">ORDER</span></a></li>
 \t            </ul>
