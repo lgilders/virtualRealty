@@ -5,20 +5,20 @@
 class Main {
 
     public static void main(String[] args) {
-        def binding = [streetAddress: '310 Lesesne Street',
-                       fullAddress: '310 Lesesne Street, Daniel Island, SC 29492',
+        def binding = [streetAddress: '111 Ithecaw Creek Street',
+                       fullAddress: '111 Ithecaw Creek Street, Daniel Island, SC 29492',
                        propertyType: 'Single Family',
                        buildingType: 'House',
                        numStories: '2',
-                       parkingType: '2-car garage',
-                       numBeds: '6',
-                       numBaths: '5.5',
-                       squareFootage: '4,567',
-                       askingPrice: '$1,525,000',
-                       description: '''Located in the island's golf-oriented neighborhood, Daniel Island Park, this newly constructed home is nestled on a corner homesite with unobstructed water and golf views of the Rees Jones-designed Ralston Creek Course.''',
-                       amenities: '''Kitchen island, smooth ceilings, up- and downstairs patios, lawn irrigation, neighborhood pool, walk/job trails, play park''',
-                       realtorLink: 'http://www.danielisland.com/property/310-lesesne-street/pbase/a0AC000000Ynub5MAB/',
-                       modelId: '3WfNBxam84k']
+                       parkingType: '2-car Garage',
+                       numBeds: '5',
+                       numBaths: '7',
+                       squareFootage: '4,718',
+                       askingPrice: '$X,XXX,000',
+                       description: '''Stunning home with stately elegance throughout this stunning home with crisp white paint giving an airy feel. ''',
+                       amenities: '''Wrought iron stair railings, pool, mahogony library, Butler's pantry, double ovens, deck and pool, marble fireplace''',
+                       realtorLink: 'http://www.realtor.com/realestateandhomes-detail/111-Ithecaw-Creek-St_Daniel-Island_SC_29492_M64978-46632',
+                       modelId: 'Jmwmi5asM2F']
 
         def engine = new groovy.text.SimpleTemplateEngine()
         def text = '''\
